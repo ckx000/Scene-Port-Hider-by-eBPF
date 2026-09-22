@@ -3,4 +3,4 @@ name=Scene Port Hider by eBPF
 version=v2.0.3
 versionCode=5
 author=Andrea-Lyz
-description=Hide Scene loopback connect probes for configured ports with an eBPF cgroup module
+description=使用eBPF cgroup模块隐藏Scene的默认端口8788和8765。该模块严重依赖手机当前的内核(含boot分区)，如有更新内核操作，务必先删除本模块再更新！
